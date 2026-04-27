@@ -6,7 +6,7 @@ A fully responsive, professional travel agency website built with **Bootstrap 5*
 
 ## 🌐 Live Demo
 
-> Deploy to  GitHub Pages and paste your live URL here.
+> Deploy to  GitHub Pages and paste your live URL here "https://nishikumari790.github.io/online_shophub/"
 
 ---
 
