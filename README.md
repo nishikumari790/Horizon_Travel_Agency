@@ -1,4 +1,4 @@
-# ✈️ WanderLux Travel Agency Website
+# ✈️ HorizonTravel Travel Agency Website
 
 A fully responsive, professional travel agency website built with **Bootstrap 5**, custom CSS, and vanilla JavaScript.
 
@@ -6,7 +6,7 @@ A fully responsive, professional travel agency website built with **Bootstrap 5*
 
 ## 🌐 Live Demo
 
-> Deploy to Netlify / GitHub Pages and paste your live URL here.
+> Deploy to  GitHub Pages and paste your live URL here.
 
 ---
 
@@ -77,12 +77,6 @@ travel-agency/
 
 ---
 
-## ☁️ Deployment
-
-### Netlify (Recommended)
-1. Drag and drop the `travel-agency/` folder to [netlify.com/drop](https://netlify.com/drop)
-2. Your site is live instantly with a public URL
-
 ### GitHub Pages
 1. Push project to a GitHub repository
 2. Go to **Settings → Pages**
@@ -125,9 +119,9 @@ travel-agency/
 
 ## 👤 Author
 
-**Your Name**  
+**Nishi Kumari**  
 Web Development Assignment — Travel Agency Website  
-Submitted: 2025
+Submitted: 2026
 
 ---
 
