@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon Travel – Explore the World in Style</title>
+  <meta name="description" content="Horizon Travel offers luxury travel packages, curated destinations, and unforgettable experiences worldwide.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Horizon<span>Travel</span></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span style="color:#fff;font-size:1.4rem;"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2"><a class="nav-link btn-book-nav" href="packages.html">Book Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center min-vh-100 py-5">
+      <div class="col-lg-6 hero-content fade-in-up">
+        <span class="hero-badge"><i class="fas fa-globe-americas me-2"></i>Trusted by 50,000+ Travelers</span>
+        <h1 class="hero-title">Explore The World's <span>Hidden Gems</span></h1>
+        <p class="hero-subtitle">From sun-drenched beaches to ancient mountain trails — we craft extraordinary journeys tailored just for you.</p>
+
+        <!-- Search Box -->
+        <div class="hero-search-box animate-on-scroll">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label">Where to?</label>
+              <select class="form-select">
+                <option value="">Select Destination</option>
+                <option>Bali, Indonesia</option>
+                <option>Santorini, Greece</option>
+                <option>Maldives</option>
+                <option>Kyoto, Japan</option>
+                <option>Paris, France</option>
+                <option>Safari, Kenya</option>
+                <option>Patagonia, Chile</option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Travel Dates</label>
+              <input type="date" class="form-control" />
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Travelers</label>
+              <select class="form-select">
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>Family (4+)</option>
+                <option>Group (8+)</option>
+              </select>
+            </div>
+            <div class="col-sm-6 d-flex align-items-end">
+              <a href="destinations.html" class="btn-secondary-custom w-100 text-center"><i class="fas fa-search me-2"></i>Search Trips</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">12K+</div>
+            <div class="hero-stat-label">Happy Travelers</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">95+</div>
+            <div class="hero-stat-label">Destinations</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">18yr</div>
+            <div class="hero-stat-label">Experience</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center">
+        <div class="floating" style="position:relative;">
+          <img src="https://images.unsplash.com/photo-1540202404-a2f29016b523?w=500&h=600&fit=crop" alt="Travel" style="width:380px;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,0.5);position:relative;z-index:2;">
+          <div style="position:absolute;top:-20px;right:-30px;background:#f0a500;border-radius:16px;padding:16px 20px;color:#0a3d62;font-weight:700;z-index:3;box-shadow:0 8px 24px rgba(240,165,0,0.4);">
+            <div style="font-size:1.5rem;">⭐ 4.9</div>
+            <div style="font-size:0.78rem;font-weight:600;">Top Rated</div>
+          </div>
+          <div style="position:absolute;bottom:30px;left:-40px;background:white;border-radius:14px;padding:14px 18px;z-index:3;box-shadow:0 8px 24px rgba(0,0,0,0.15);">
+            <div style="font-size:0.75rem;color:#888;font-weight:600;margin-bottom:3px;">Next Tour</div>
+            <div style="font-size:0.9rem;font-weight:700;color:#0a3d62;">🏝️ Bali · 3 seats left</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WHY CHOOSE US ═══ -->
+<section class="py-5 bg-light" style="background:var(--light-bg) !important;">
+  <div class="container py-4">
+    <div class="text-center mb-5 animate-on-scroll">
+      <span class="section-label">Why Horizon</span>
+      <h2 class="section-title">Travel Smarter, <span>Live Better</span></h2>
+      <p class="section-subtitle mx-auto">We don't just plan trips — we create memories that last a lifetime.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 animate-on-scroll">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+          <h5 class="why-title">Safe & Secure</h5>
+          <p class="why-text">All bookings are fully insured with 24/7 emergency support wherever you are in the world.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 animate-on-scroll">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-star"></i></div>
+          <h5 class="why-title">Luxury Experience</h5>
+          <p class="why-text">Handpicked 5-star hotels, private transfers, and exclusive experiences curated for you.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 animate-on-scroll">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-tag"></i></div>
+          <h5 class="why-title">Best Price Guarantee</h5>
+          <p class="why-text">Find it cheaper elsewhere? We'll match the price and give you an extra 10% discount.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 animate-on-scroll">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <h5 class="why-title">Expert Support</h5>
+          <p class="why-text">Our certified travel consultants are available round the clock to assist you anytime.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TOP DESTINATIONS ═══ -->
+<section class="py-5">
+  <div class="container py-4">
+    <div class="row align-items-end mb-5">
+      <div class="col-md-8 animate-on-scroll">
+        <span class="section-label">Popular Destinations</span>
+        <h2 class="section-title">Dream Places <span>Await You</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Explore our most-loved destinations hand-selected by our travel experts.</p>
+      </div>
+      <div class="col-md-4 text-md-end animate-on-scroll">
+        <a href="destinations.html" class="btn-outline-custom">View All Destinations <i class="fas fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="dest-card card">
+          <div class="dest-card-img-wrap">
+            <img class="dest-card-img" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop" alt="Bali">
+          </div>
+          <div class="dest-card-body">
+            <div class="dest-card-country">🇮🇩 Indonesia</div>
+            <h5 class="dest-card-title">Bali – Island of Gods</h5>
+            <p class="dest-card-info">Pristine rice terraces, volcanic peaks, ancient temples and world-class surf beaches.</p>
+            <div class="dest-card-footer">
+              <div class="dest-price">$1,299 <span>/ person</span></div>
+              <div class="dest-rating"><i class="fas fa-star"></i> 4.9 (842)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="dest-card card">
+          <div class="dest-card-img-wrap">
+            <img class="dest-card-img" src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&h=400&fit=crop" alt="Santorini">
+          </div>
+          <div class="dest-card-body">
+            <div class="dest-card-country">🇬🇷 Greece</div>
+            <h5 class="dest-card-title">Santorini – Caldera Views</h5>
+            <p class="dest-card-info">Blue-domed churches, volcanic beaches, world-class wine and the most romantic sunsets.</p>
+            <div class="dest-card-footer">
+              <div class="dest-price">$2,199 <span>/ person</span></div>
+              <div class="dest-rating"><i class="fas fa-star"></i> 4.8 (619)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="dest-card card">
+          <div class="dest-card-img-wrap">
+            <img class="dest-card-img" src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=600&h=400&fit=crop" alt="Maldives">
+          </div>
+          <div class="dest-card-body">
+            <div class="dest-card-country">🇲🇻 Maldives</div>
+            <h5 class="dest-card-title">Maldives – Overwater Bliss</h5>
+            <p class="dest-card-info">Crystal lagoons, overwater bungalows, vibrant coral reefs and pristine white sand.</p>
+            <div class="dest-card-footer">
+              <div class="dest-price">$3,499 <span>/ person</span></div>
+              <div class="dest-rating"><i class="fas fa-star"></i> 5.0 (421)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEATURED PACKAGES ═══ -->
+<section class="py-5" style="background:var(--light-bg);">
+  <div class="container py-4">
+    <div class="text-center mb-5 animate-on-scroll">
+      <span class="section-label">Curated Packages</span>
+      <h2 class="section-title">Our Best <span>Travel Deals</span></h2>
+      <p class="section-subtitle mx-auto">Everything included — flights, hotels, guides and more.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="pkg-card card h-100" style="position:relative;">
+          <span class="pkg-badge">BESTSELLER</span>
+          <img class="pkg-card-img" src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=300&fit=crop" alt="Japan">
+          <div class="pkg-card-body">
+            <h5 class="pkg-card-title">Discover Japan – Cherry Blossom Tour</h5>
+            <div class="pkg-feature"><i class="fas fa-clock"></i> 10 Days / 9 Nights</div>
+            <div class="pkg-feature"><i class="fas fa-plane"></i> Round-trip flights included</div>
+            <div class="pkg-feature"><i class="fas fa-hotel"></i> 5-star hotels</div>
+            <div class="pkg-feature"><i class="fas fa-utensils"></i> Daily breakfast + 3 dinners</div>
+            <div class="pkg-feature"><i class="fas fa-user-tie"></i> Expert local guide</div>
+            <div class="mt-3">
+              <span class="tag-pill">Tokyo</span><span class="tag-pill">Kyoto</span><span class="tag-pill">Osaka</span><span class="tag-pill">Nara</span>
+            </div>
+          </div>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Per person from</div>
+              <div class="pkg-old-price">$3,200</div>
+              <div class="pkg-price">$2,699 <span>/ person</span></div>
+            </div>
+            <a href="packages.html" class="btn-secondary-custom" style="padding:10px 20px;font-size:0.88rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="pkg-card card h-100" style="position:relative;">
+          <img class="pkg-card-img" src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&h=300&fit=crop" alt="Italy">
+          <div class="pkg-card-body">
+            <h5 class="pkg-card-title">Italian Romance – Rome to Amalfi</h5>
+            <div class="pkg-feature"><i class="fas fa-clock"></i> 8 Days / 7 Nights</div>
+            <div class="pkg-feature"><i class="fas fa-plane"></i> Round-trip flights included</div>
+            <div class="pkg-feature"><i class="fas fa-hotel"></i> Boutique hotels</div>
+            <div class="pkg-feature"><i class="fas fa-utensils"></i> Cooking class + Wine tasting</div>
+            <div class="pkg-feature"><i class="fas fa-car"></i> Private transfers</div>
+            <div class="mt-3">
+              <span class="tag-pill">Rome</span><span class="tag-pill">Florence</span><span class="tag-pill">Amalfi</span>
+            </div>
+          </div>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Per person from</div>
+              <div class="pkg-price">$2,399 <span>/ person</span></div>
+            </div>
+            <a href="packages.html" class="btn-secondary-custom" style="padding:10px 20px;font-size:0.88rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="pkg-card card h-100" style="position:relative;">
+          <span class="pkg-badge" style="background:#e74c3c;color:#fff;">HOT DEAL</span>
+          <img class="pkg-card-img" src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&h=300&fit=crop" alt="Kenya">
+          <div class="pkg-card-body">
+            <h5 class="pkg-card-title">Kenya Safari – Great Migration</h5>
+            <div class="pkg-feature"><i class="fas fa-clock"></i> 7 Days / 6 Nights</div>
+            <div class="pkg-feature"><i class="fas fa-plane"></i> Domestic flights included</div>
+            <div class="pkg-feature"><i class="fas fa-campground"></i> Luxury tented camps</div>
+            <div class="pkg-feature"><i class="fas fa-binoculars"></i> Daily game drives</div>
+            <div class="pkg-feature"><i class="fas fa-shield-alt"></i> Travel insurance</div>
+            <div class="mt-3">
+              <span class="tag-pill">Maasai Mara</span><span class="tag-pill">Amboseli</span>
+            </div>
+          </div>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Per person from</div>
+              <div class="pkg-old-price">$3,800</div>
+              <div class="pkg-price">$2,999 <span>/ person</span></div>
+            </div>
+            <a href="packages.html" class="btn-secondary-custom" style="padding:10px 20px;font-size:0.88rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 animate-on-scroll">
+      <a href="packages.html" class="btn-primary-custom">Explore All Packages <i class="fas fa-arrow-right ms-2"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COUNTERS ═══ -->
+<section class="py-5 counter-section" style="background:linear-gradient(135deg,#0a3d62 0%,#1a6091 100%);">
+  <div class="container py-4">
+    <div class="row g-4 text-center text-white">
+      <div class="col-6 col-lg-3">
+        <div style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:#f0a500;">
+          <span class="counter-num" data-target="12000" data-suffix="+">0</span>
+        </div>
+        <div style="font-size:0.9rem;color:rgba(255,255,255,0.7);margin-top:6px;">Happy Travelers</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:#f0a500;">
+          <span class="counter-num" data-target="95" data-suffix="+">0</span>
+        </div>
+        <div style="font-size:0.9rem;color:rgba(255,255,255,0.7);margin-top:6px;">Destinations</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:#f0a500;">
+          <span class="counter-num" data-target="350" data-suffix="+">0</span>
+        </div>
+        <div style="font-size:0.9rem;color:rgba(255,255,255,0.7);margin-top:6px;">Tour Packages</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:#f0a500;">
+          <span class="counter-num" data-target="18" data-suffix="yr">0</span>
+        </div>
+        <div style="font-size:0.9rem;color:rgba(255,255,255,0.7);margin-top:6px;">Years of Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TESTIMONIALS ═══ -->
+<section class="testimonial-section py-5">
+  <div class="container py-4">
+    <div class="text-center mb-5 animate-on-scroll">
+      <span class="section-label" style="color:#f0a500;">Traveler Stories</span>
+      <h2 class="section-title" style="color:#fff;">What Our <span>Guests Say</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Horizon turned our honeymoon into an absolute fairy tale. Every single detail was perfectly arranged — from the overwater bungalow in Maldives to private sunset dinners. We're already planning our next trip!"</p>
+          <div class="testi-author">
+            <img class="testi-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Sarah">
+            <div>
+              <div class="testi-name">Sarah & James Mitchell</div>
+              <div class="testi-trip">✈️ Maldives Honeymoon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The Japan Cherry Blossom tour exceeded every expectation. Our guide Kenji was incredibly knowledgeable. Seeing Kyoto in bloom while staying in a ryokan was a truly spiritual experience. Pure magic!"</p>
+          <div class="testi-author">
+            <img class="testi-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" alt="David">
+            <div>
+              <div class="testi-name">David Fernandez</div>
+              <div class="testi-trip">🌸 Japan Cherry Blossom Tour</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"I've traveled with 6 different agencies and WanderLux is simply the best. The Kenya safari was breathtaking — witnessing the Great Migration was life-changing. Professional, warm and highly recommended!"</p>
+          <div class="testi-author">
+            <img class="testi-avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Emma">
+            <div>
+              <div class="testi-name">Emma Thornton</div>
+              <div class="testi-trip">🦁 Kenya Safari Adventure</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8 animate-on-scroll">
+        <h2 class="cta-title">Ready for Your Next Adventure?</h2>
+        <p class="cta-subtitle mt-2">Talk to our travel experts today. Free consultation, no obligations.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 animate-on-scroll">
+        <a href="contact.html" class="btn-primary-custom me-3">Enquire Now</a>
+        <a href="packages.html" class="btn-outline-custom">View Packages</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">Horizon<span>Travel</span></div>
+        <p class="footer-tagline">Crafting extraordinary journeys since 2008. Your dream destination is just a click away.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <div class="footer-heading">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="footer-heading">Popular Destinations</div>
+        <ul class="footer-links">
+          <li><a href="destinations.html">Bali, Indonesia</a></li>
+          <li><a href="destinations.html">Santorini, Greece</a></li>
+          <li><a href="destinations.html">Maldives</a></li>
+          <li><a href="destinations.html">Kyoto, Japan</a></li>
+          <li><a href="destinations.html">Paris, France</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-heading">Newsletter</div>
+        <p style="font-size:0.88rem;color:rgba(255,255,255,0.6);margin-bottom:16px;">Get exclusive deals and travel inspiration delivered to your inbox.</p>
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Your email" style="border-radius:10px 0 0 10px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;">
+          <button class="btn" style="background:var(--secondary);color:var(--primary);font-weight:700;border-radius:0 10px 10px 0;">Go</button>
+        </div>
+        <div style="margin-top:20px;font-size:0.82rem;color:rgba(255,255,255,0.5);">
+          <i class="fas fa-phone me-2"></i>+1 (000) 123-4567<br>
+          <i class="fas fa-envelope me-2 mt-2"></i>hello@horizontravel.com
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <p class="footer-bottom-text mb-0">© 2025 Horizon Travel Agency. All rights reserved.</p>
+      <p class="footer-bottom-text mb-0">Privacy Policy · Terms of Service · Cookie Policy</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" style="display:none;position:fixed;bottom:28px;right:28px;width:46px;height:46px;background:var(--primary);color:#fff;border:none;border-radius:50%;cursor:pointer;z-index:999;align-items:center;justify-content:center;font-size:1.1rem;box-shadow:0 4px 16px rgba(0,0,0,0.2);">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
